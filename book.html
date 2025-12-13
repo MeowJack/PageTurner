@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details - PageTurner Library</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">PageTurner</span>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="books.html" data-i18n="nav_books">Books</a></li>
+                <li><a href="about.html" data-i18n="nav_about">About</a></li>
+            </ul>
+            
+            <!-- Language Toggle Button -->
+            <button id="lang-toggle" class="lang-toggle-btn" aria-label="Toggle language">العربية</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Book Details - Content will be loaded here by JavaScript -->
+        <div id="book-details">
+            <p class="loading" data-i18n="loading_details">Loading book details</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p data-i18n="footer_text">&copy; 2025 PageTurner Library. College Graduation Project.</p>
+    </footer>
+
+    <!-- JavaScript Files - Order matters! -->
+    <script src="js/translations.js"></script>
+    <script src="js/books-data.js"></script>
+    <script src="js/book-details.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

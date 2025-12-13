@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageTurner Library - Discover Your Next Great Read</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">PageTurner</span>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="books.html" data-i18n="nav_books">Books</a></li>
+                <li><a href="about.html" data-i18n="nav_about">About</a></li>
+            </ul>
+            
+            <!-- Language Toggle Button -->
+            <button id="lang-toggle" class="lang-toggle-btn" aria-label="Toggle language">العربية</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title" data-i18n="hero_title">Welcome to PageTurner Library</h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+                Discover a world of knowledge and imagination. Browse our collection of 
+                timeless classics and find your next great read.
+            </p>
+            <a href="books.html" class="hero-btn" data-i18n="hero_btn">Explore Our Books</a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <h2 class="section-title" data-i18n="features_title">What We Offer</h2>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3 class="feature-title" data-i18n="feature1_title">Extensive Collection</h3>
+                    <p class="feature-description" data-i18n="feature1_desc">
+                        Browse through our carefully curated collection of classic literature, 
+                        fiction, and timeless masterpieces.
+                    </p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title" data-i18n="feature2_title">Detailed Information</h3>
+                    <p class="feature-description" data-i18n="feature2_desc">
+                        Get comprehensive details about each book including author, 
+                        release date, category, and synopsis.
+                    </p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3 class="feature-title" data-i18n="feature3_title">Easy to Navigate</h3>
+                    <p class="feature-description" data-i18n="feature3_desc">
+                        Our simple and intuitive design makes it easy to find 
+                        and explore books that interest you.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="features-section">
+            <h2 class="section-title" data-i18n="about_title">About This Library</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3 class="feature-title" data-i18n="about1_title">Educational Purpose</h3>
+                    <p class="feature-description" data-i18n="about1_desc">
+                        This website was created as a college graduation project to demonstrate 
+                        web development skills using HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3 class="feature-title" data-i18n="about2_title">Classic Literature</h3>
+                    <p class="feature-description" data-i18n="about2_desc">
+                        We feature some of the most beloved and influential books in literary 
+                        history, perfect for students and book lovers alike.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title" data-i18n="about3_title">Responsive Design</h3>
+                    <p class="feature-description" data-i18n="about3_desc">
+                        Enjoy a seamless experience on any device - whether you're browsing 
+                        on desktop, tablet, or mobile phone.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p data-i18n="footer_text">&copy; 2025 PageTurner Library. College Graduation Project.</p>
+    </footer>
+
+    <!-- JavaScript - Order matters! translations.js must be loaded first -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

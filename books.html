@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Books - PageTurner Library</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-icon">📚</span>
+                <span class="nav-logo-text">PageTurner</span>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="books.html" data-i18n="nav_books">Books</a></li>
+                <li><a href="about.html" data-i18n="nav_about">About</a></li>
+            </ul>
+            
+            <!-- Language Toggle Button -->
+            <button id="lang-toggle" class="lang-toggle-btn" aria-label="Toggle language">العربية</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1 class="page-title" data-i18n="books_title">Our Book Collection</h1>
+            <p class="page-subtitle" data-i18n="books_subtitle">Click on any book to see more details</p>
+        </div>
+
+        <!-- Books Grid - Books will be loaded here by JavaScript -->
+        <div id="books-grid" class="books-grid">
+            <p class="loading" data-i18n="loading">Loading books</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p data-i18n="footer_text">&copy; 2025 PageTurner Library. College Graduation Project.</p>
+    </footer>
+
+    <!-- JavaScript Files - Order matters! -->
+    <script src="js/translations.js"></script>
+    <script src="js/books-data.js"></script>
+    <script src="js/books.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
