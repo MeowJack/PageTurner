@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,148 +7,127 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-logo">
-                <span class="nav-logo-icon">📚</span>
-                <span class="nav-logo-text">PageTurner</span>
-            </a>
+            <!-- Logo -->
+            <a href="index.html" class="logo">📚 PageTurner</a>
             
-            <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
-            
+            <!-- Navigation Links -->
             <ul class="nav-links">
-                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                <li><a href="books.html" data-i18n="nav_books">Books</a></li>
-                <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
-            
-            <!-- Language Toggle Button -->
-            <button id="lang-toggle" class="lang-toggle-btn" aria-label="Toggle language">العربية</button>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Page Header -->
-        <div class="page-header">
-            <h1 class="page-title" data-i18n="about_page_title">About Us</h1>
-            <p class="page-subtitle" data-i18n="about_page_subtitle">Meet the team behind PageTurner Library</p>
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>About Us</h1>
+        <p>Meet the team behind PageTurner Library</p>
+    </section>
+
+    <!-- Project Info -->
+    <section class="about-section">
+        <div class="project-info">
+            <div class="icon">🎓</div>
+            <h2>College Project</h2>
+            <p>This website was developed as a project to demonstrate web development skills using HTML, CSS, and JavaScript.</p>
         </div>
+    </section>
 
-        <!-- Project Info Section -->
-        <section class="about-project">
-            <div class="project-card">
-                <div class="project-icon">🎓</div>
-                <h2 data-i18n="project_title">College Graduation Project</h2>
-                <p data-i18n="project_desc">This website was developed as a graduation project to demonstrate web development skills using HTML, CSS, and vanilla JavaScript. The project showcases a modern, responsive library website with bilingual support (English & Arabic).</p>
+    <!-- Team Section -->
+    <section class="team-section">
+        <h2>Our Team</h2>
+        
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>مروان سعيد عبد السلام</h3>
+                <p>23/121226</p>
             </div>
-        </section>
-
-        <!-- Team Section -->
-        <section class="team-section">
-            <h2 class="section-title" data-i18n="team_title">Our Team</h2>
             
-            <div class="team-grid">
-                <!-- Team Member 1 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">مروان سعيد عبد السلام</h3>
-                    <p class="team-id">23/121226</p>
-                </div>
-                
-                <!-- Team Member 2 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">يوسف سامح فكري نسيم</h3>
-                    <p class="team-id">24/121608</p>
-                </div>
-                
-                <!-- Team Member 3 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">كريم نادر منصور نبيه</h3>
-                    <p class="team-id">24/121386</p>
-                </div>
-                
-                <!-- Team Member 4 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">يحيي محمد عبدالستار علي</h3>
-                    <p class="team-id">24/121587</p>
-                </div>
-                
-                <!-- Team Member 5 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">اسامه رمضان توفيق محمد</h3>
-                    <p class="team-id">24/121808</p>
-                </div>
-                
-                <!-- Team Member 6 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">ياسر محمد فؤاد</h3>
-                    <p class="team-id">24/121576</p>
-                </div>
-                
-                <!-- Team Member 7 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">علي محمود علي جعفر</h3>
-                    <p class="team-id">24/121841</p>
-                </div>
-                
-                <!-- Team Member 8 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">مايكل رضا شارل</h3>
-                    <p class="team-id">24/121405</p>
-                </div>
-                
-                <!-- Team Member 9 -->
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3 class="team-name">محمد سرحان ابراهيم محمد</h3>
-                    <p class="team-id">23/121195</p>
-                </div>
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>يوسف سامح فكري نسيم</h3>
+                <p>24/121608</p>
             </div>
-        </section>
-
-        <!-- Technologies Section -->
-        <section class="tech-section">
-            <h2 class="section-title" data-i18n="tech_title">Technologies Used</h2>
             
-            <div class="tech-grid">
-                <div class="tech-card">
-                    <div class="tech-icon">🌐</div>
-                    <h3>HTML5</h3>
-                    <p data-i18n="tech_html">Structure & Content</p>
-                </div>
-                
-                <div class="tech-card">
-                    <div class="tech-icon">🎨</div>
-                    <h3>CSS3</h3>
-                    <p data-i18n="tech_css">Styling & Layout</p>
-                </div>
-                
-                <div class="tech-card">
-                    <div class="tech-icon">⚡</div>
-                    <h3>JavaScript</h3>
-                    <p data-i18n="tech_js">Interactivity & Logic</p>
-                </div>
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>كريم نادر منصور نبيه</h3>
+                <p>24/121386</p>
             </div>
-        </section>
-    </main>
+            
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>يحيي محمد عبدالستار علي</h3>
+                <p>24/121587</p>
+            </div>
+            
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>اسامه رمضان توفيق محمد</h3>
+                <p>24/121808</p>
+            </div>
+            
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>ياسر محمد فؤاد</h3>
+                <p>24/121576</p>
+            </div>
+            
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>علي محمود علي جعفر</h3>
+                <p>24/121841</p>
+            </div>
+            
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>مايكل رضا شارل</h3>
+                <p>24/121405</p>
+            </div>
+            
+            <div class="team-card">
+                <div class="avatar">👨‍💻</div>
+                <h3>محمد سرحان ابراهيم محمد</h3>
+                <p>23/121195</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="tech-section">
+        <h2>Technologies Used</h2>
+        
+        <div class="tech-grid">
+            <div class="tech-card">
+                <div class="icon">🌐</div>
+                <h3>HTML5</h3>
+                <p>Structure & Content</p>
+            </div>
+            
+            <div class="tech-card">
+                <div class="icon">🎨</div>
+                <h3>CSS3</h3>
+                <p>Styling & Layout</p>
+            </div>
+            
+            <div class="tech-card">
+                <div class="icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Interactivity & Logic</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p data-i18n="footer_text">&copy; 2025 PageTurner Library. College Graduation Project.</p>
+        <p>© 2025 PageTurner Library. College Project.</p>
     </footer>
 
-    <!-- JavaScript Files -->
-    <script src="js/translations.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
-
